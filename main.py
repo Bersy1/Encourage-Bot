@@ -91,11 +91,11 @@ async def on_message(message):
 
     if value.lower() == "true":
       db["responding"] = True
-      await message.channel.send("Responding is on")
+      await message.channel.send("Responding is on.")
 
     else:
       db["responding"] = False
-      await message.channel.send("Responding is off")
+      await message.channel.send("Responding is off.")
 
 
 
